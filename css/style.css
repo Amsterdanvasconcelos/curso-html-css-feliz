@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    /* Base */
+    --color-first: #F25A70;
+    --color-second: #7C5E99;
+    --color-third: #fff;
+
+    /* Black */
+    --color-black-first: #000;
+    --color-black-second: #3A4042;
+    --color-black-third: #828282;
+
+    /* Status */
+    --color-error: #BA1F33;
+    --color-warning: #CEB02A;
+    --color-success: #62C370;
+}
+
+header {
+    background: var(--color-second);
+}
+
+header .logo {
+    width: 60px;
+}
+
+.navbar a {
+    color: var(--color-third);
+    font-family: 'Fira Code', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+.navbar .button {
+    display: inline-block;
+    padding: 0 20px;
+    box-shadow: 5px 5px 0 var(--color-black-first);
+    background-color: var(--color-first);
+    height: 60px;
+    line-height: 60px;
+}
