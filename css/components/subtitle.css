@@ -1,7 +1,7 @@
-h1 {
-    color: var(--color-first);
+h2 {
+    color: var(--color-third);
     font-family: var(--font-first);
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
     text-shadow: 4px 4px 0px var(--color-black-first);
 }
