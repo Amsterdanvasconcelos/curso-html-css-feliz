@@ -7,9 +7,3 @@
     font-weight: 400;
     text-shadow: 4px 4px 0px var(--color-black-first);
 }
-
-/* Title dentro do box */
-
-.box .title {
-    margin-bottom: 28px;
-}

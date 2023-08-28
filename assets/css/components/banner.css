@@ -1,0 +1,21 @@
+.banner {
+    border-bottom: 10px solid var(--color-black-first);
+    background-image: url(../../image/photo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+}
+
+.banner .wrapper {
+    padding-top: 100px;
+    margin-left: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 640px;
+}
+
+.banner .buttons {
+    display: flex;
+    justify-content: space-evenly;
+}

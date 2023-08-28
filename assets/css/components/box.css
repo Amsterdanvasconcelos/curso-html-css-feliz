@@ -5,3 +5,7 @@
     background-color: var(--color-black-second);
     text-align: center;
 }
+
+.box .title {
+    margin-bottom: 28px;
+}
