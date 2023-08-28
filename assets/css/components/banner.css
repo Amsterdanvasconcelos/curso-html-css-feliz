@@ -7,8 +7,8 @@
 }
 
 .banner .wrapper {
-    padding-top: 100px;
-    margin-left: 160px;
+    padding-top: 115px;
+    padding-left: 90px;
     display: flex;
     flex-direction: column;
     gap: 50px;
