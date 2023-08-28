@@ -7,3 +7,9 @@
     font-weight: 400;
     text-shadow: 4px 4px 0px var(--color-black-first);
 }
+
+.title.-second {
+    color: var(--color-third);
+    text-shadow: none;
+    text-align: center;
+}
