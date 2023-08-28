@@ -1,12 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    border: none;
-    box-sizing: border-box;
-    font-family: var(--font-second);
-    text-decoration: none;
-}
-
 :root {
     /* Base */
     --color-first: #F25A70;
