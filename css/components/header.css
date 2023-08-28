@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 10px solid var(--color-black-first);
+    background: var(--color-second);
+}
+
+.logo {
+    width: 60px;
+}

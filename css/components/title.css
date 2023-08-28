@@ -1,4 +1,6 @@
-h1 {
+/* configurações gerais */
+
+.title {
     color: var(--color-first);
     font-family: var(--font-first);
     font-size: 40px;
@@ -6,6 +8,8 @@ h1 {
     text-shadow: 4px 4px 0px var(--color-black-first);
 }
 
-.box h1 {
+/* Title dentro do box */
+
+.box .title {
     margin-bottom: 28px;
 }
