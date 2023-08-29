@@ -7,12 +7,17 @@
     margin-bottom: 60px;
 }
 
-.section-skills {
+.section--skills {
     border-bottom: 10px solid var(--color-second);
     background-color: var(--color-first);
 }
 
-.section-projects {
+.section--projects {
     border-bottom: 10px solid var(--color-first);
     background-color: var(--color-black-first);
+}
+
+.section--about {
+    border-bottom: 10px solid var(--color-black-first);
+    background-color: var(--color-second);
 }
