@@ -1,9 +1,18 @@
 .section {
     padding-top: 50px;
     padding-bottom: 100px;
-    background-color: var(--color-first);
 }
 
 .section > .title {
     margin-bottom: 60px;
+}
+
+.section-skills {
+    border-bottom: 10px solid var(--color-second);
+    background-color: var(--color-first);
+}
+
+.section-projects {
+    border-bottom: 10px solid var(--color-first);
+    background-color: var(--color-black-first);
 }
