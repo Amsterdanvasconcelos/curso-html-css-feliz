@@ -6,6 +6,6 @@
     background: var(--color-second);
 }
 
-.logo {
+.header .logo {
     width: 60px;
 }

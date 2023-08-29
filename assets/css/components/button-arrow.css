@@ -24,3 +24,7 @@
 .button-arrow .content {
     display: none;
 }
+
+.button-arrow.button-arrow--left::before {
+    transform: rotateZ(180deg) translateX(9px);
+}
