@@ -1,0 +1,9 @@
+.description {
+    margin: 0 auto;
+    width: 90%;
+    color: var(--color-third);
+    font-family: var(--font-second);
+    font-size: 30px;
+    font-weight: 300;
+    text-align: justify;
+}
