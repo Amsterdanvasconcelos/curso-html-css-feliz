@@ -1,7 +1,7 @@
 .project {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     
     box-shadow: 10px 10px 0px var(--color-third);
     height: 280px;
@@ -20,4 +20,8 @@
 
 .project--third {
     background-color: var(--color-third);
+}
+
+.project--third {
+    display: block;
 }
