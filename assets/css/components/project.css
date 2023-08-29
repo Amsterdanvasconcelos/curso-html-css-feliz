@@ -1,0 +1,23 @@
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    box-shadow: 10px 10px 0px var(--color-third);
+    height: 280px;
+    width: 280px;
+    background-color: white;
+}
+
+.project--first {
+    background-color: var(--color-second);
+}
+
+.project--second {
+    
+    background-color: var(--color-fourth, #4C5B84);
+}
+
+.project--third {
+    background-color: var(--color-third);
+}
