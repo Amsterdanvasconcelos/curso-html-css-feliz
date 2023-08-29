@@ -8,8 +8,15 @@
     text-shadow: 4px 4px 0px var(--color-black-first);
 }
 
-.title.-second {
+.title--second {
     color: var(--color-third);
     text-shadow: none;
     text-align: center;
+}
+
+.title--third {
+    color: var(--color-third);
+    text-shadow: none;
+    font-size: 25px;
+    font-weight: 400;
 }

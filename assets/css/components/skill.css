@@ -1,0 +1,27 @@
+.skill {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill img {
+    height: 90px;
+}
+
+.skill .title {
+    margin-bottom: 20px;
+}
+
+.progress {
+    border: 5px solid var(--color-black-first);
+    height: 40px;
+    width: 320px;
+}
+
+.progress::-webkit-progress-bar {
+    background-color: var(--color-third);
+}
+
+.progress::-webkit-progress-value {
+    background-color: var(--color-second);
+}
