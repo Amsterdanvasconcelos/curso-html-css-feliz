@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    background-color: var(--color-black-first);
+    height: 100px;
+}
+
+.footer__logo {
+    width: 45px;
+}
