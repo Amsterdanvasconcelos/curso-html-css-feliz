@@ -1,6 +1,8 @@
 .button-arrow {
     position: absolute;
+    z-index: 2;
     left: 96%;
+    top: 55%;
     box-shadow: 5px 5px 0px var(--color-black-first);
     background-color: var(--color-first);
     height: 50px;

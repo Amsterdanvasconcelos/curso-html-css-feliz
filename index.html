@@ -28,6 +28,9 @@
     <link rel="stylesheet" href="assets/css/components/button-arrow.css">
     <link rel="stylesheet" href="assets/css/components/node-card.css">
     
+    <!-- JavaScript -->
+    <script defer src="assets/js/components/carousel.js"></script>
+    
     <title>Marco Bruno</title>
     
 </head>
@@ -167,52 +170,49 @@
 
         <div class="wrapper-carousel">
 
-            <button type="button" class="button-arrow button-arrow--left"><span class="content">Voltar</span></button>
-            <button type="button" class="button-arrow button-arrow--right"><span class="content">Avançar</span></button>
+            <button type="button" class="button-arrow button-arrow--left" data-carousel="btn-back"><span class="content">Voltar</span></button>
+            <button type="button" class="button-arrow button-arrow--right" data-carousel="btn-next"><span class="content">Avançar</span></button>
 
-            <div class="carousel">
-
-                <figure class="node-card">
-                    <figcaption class="node-card__title">2012</figcaption>
-                    <div class="node-card__logo">
-                        <img src="assets/image/node-cards/locaweb.png" alt="Logo Locaweb">
-                    </div>
-                </figure>
-
-                <figure class="node-card">
-                    <figcaption class="node-card__title">2014</figcaption>
-                    <div class="node-card__logo node-card__logo--clean">
-                        <img src="assets/image/node-cards/caelum.png" alt="Logo Caelum">
-                    </div>
-                </figure>
-
-                <figure class="node-card">
-                    <figcaption class="node-card__title">2016</figcaption>
-                    <div class="node-card__logo node-card__logo--first">
-                        <img src="assets/image/node-cards/getninjas.svg" alt="Logo GetNinjas">
-                    </div>
-                </figure>
-
-                <figure class="node-card">
-                    <figcaption class="node-card__title">2017</figcaption>
-                    <div class="node-card__logo node-card__logo--clean">
-                        <img src="assets/image/node-cards/caelum.png" alt="Logo Caelum">
-                    </div>
-                </figure>
-
-                <figure class="node-card">
-                    <figcaption class="node-card__title">2018</figcaption>
-                    <div class="node-card__logo">
-                        <img src="assets/image/node-cards/impulso.png" alt="Logo Impulso">
-                    </div>
-                </figure>
-
-                <figure class="node-card">
-                    <figcaption class="node-card__title">2019</figcaption>
-                    <div class="node-card__logo node-card__logo--first">
-                        <img src="assets/image/node-cards/collabcode.png" alt="Logo Collab Code">
-                    </div>
-                </figure>
+            <div class="carousel-moviment">
+                
+                <div class="carousel" data-carousel="carousel-moviment">
+                    <figure class="node-card" data-carousel="card">
+                        <figcaption class="node-card__title">2012</figcaption>
+                        <div class="node-card__logo">
+                            <img src="assets/image/node-cards/locaweb.png" alt="Logo Locaweb">
+                        </div>
+                    </figure>
+                    <figure class="node-card">
+                        <figcaption class="node-card__title">2014</figcaption>
+                        <div class="node-card__logo node-card__logo--clean">
+                            <img src="assets/image/node-cards/caelum.png" alt="Logo Caelum">
+                        </div>
+                    </figure>
+                    <figure class="node-card">
+                        <figcaption class="node-card__title">2016</figcaption>
+                        <div class="node-card__logo node-card__logo--first">
+                            <img src="assets/image/node-cards/getninjas.svg" alt="Logo GetNinjas">
+                        </div>
+                    </figure>
+                    <figure class="node-card">
+                        <figcaption class="node-card__title">2017</figcaption>
+                        <div class="node-card__logo node-card__logo--clean">
+                            <img src="assets/image/node-cards/caelum.png" alt="Logo Caelum">
+                        </div>
+                    </figure>
+                    <figure class="node-card">
+                        <figcaption class="node-card__title">2018</figcaption>
+                        <div class="node-card__logo">
+                            <img src="assets/image/node-cards/impulso.png" alt="Logo Impulso">
+                        </div>
+                    </figure>
+                    <figure class="node-card">
+                        <figcaption class="node-card__title">2019</figcaption>
+                        <div class="node-card__logo node-card__logo--first">
+                            <img src="assets/image/node-cards/collabcode.png" alt="Logo Collab Code">
+                        </div>
+                    </figure>
+                </div>
 
             </div>
  
