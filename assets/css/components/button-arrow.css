@@ -1,4 +1,6 @@
 .button-arrow {
+    position: absolute;
+    left: 96%;
     box-shadow: 5px 5px 0px var(--color-black-first);
     background-color: var(--color-first);
     height: 50px;
@@ -23,6 +25,10 @@
 
 .button-arrow .content {
     display: none;
+}
+
+.button-arrow.button-arrow--left {
+    left: 1%;
 }
 
 .button-arrow.button-arrow--left::before {
