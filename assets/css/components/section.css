@@ -21,3 +21,7 @@
     border-bottom: 10px solid var(--color-black-first);
     background-color: var(--color-second);
 }
+
+.section--contacts {
+    background-color: var(--color-black-second);
+}

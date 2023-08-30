@@ -19,4 +19,12 @@
     transform: scale(1.05);
 }
 
+.button--form {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.button.button--form:hover {
+    transform: scale(1.02);
+}
 
