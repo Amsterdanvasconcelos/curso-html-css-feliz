@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,29 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=Press+Start+2P&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+
     <!-- Stylesheet -->
     <!-- Base -->
     <link rel="stylesheet" href="assets/css/base/reset.css">
     <link rel="stylesheet" href="assets/css/base/root.css">
+    <link rel="stylesheet" href="assets/css/base/u-padding-top-50-padding-bottom-100.css">
     <!-- Layout -->
     <link rel="stylesheet" href="assets/css/layouts/l-header.css">
+    <link rel="stylesheet" href="assets/css/layouts/l-banner.css">
+    <link rel="stylesheet" href="assets/css/layouts/l-skills.css">
     <!-- Components -->
     <link rel="stylesheet" href="assets/css/components/c-navegation.css">
     <link rel="stylesheet" href="assets/css/components/c-button.css">
+    <link rel="stylesheet" href="assets/css/components/c-title.css">
+    <link rel="stylesheet" href="assets/css/components/c-subtitle.css">
+    <link rel="stylesheet" href="assets/css/components/c-skill.css">
+    <link rel="stylesheet" href="assets/css/components/c-bar-progress.css">
 
     <title>Portfólio Marco Bruno</title>
 </head>
+
 <body>
 
     <header class="l-header">
@@ -40,30 +50,165 @@
             </nav>
 
         </div>
-        
+
     </header>
-    
+
     <main>
 
         <section class="l-banner">
 
-            <div class="l-banner__content">
+            <div class="l-banner__bg">
 
-                <div class="l-banner__text">
+                <div class="l-banner__content">
 
-                    <h1 class="c-title">Marco Bruno</h1>
-                    <h2 class="c-subtitle">FrontEnd Developer</h2>
-                    
+                    <div class="l-banner__text">
+
+                        <h1 class="c-title">Marco Bruno</h1>
+                        <h2 class="c-subtitle">FrontEnd Developer</h2>
+
+                    </div>
+
+                    <div class="l-banner__buttons">
+
+                        <a href="#" class="c-button">Download CV</a>
+                        <a href="#" class="c-button">Contatos</a>
+
+                    </div>
+
                 </div>
 
-                <a href="#" class="c-button">Download CV</a>
-                <a href="#" class="c-button">Contatos</a>
-                
             </div>
-            
+
         </section>
-        
+
+        <section class="l-skills">
+
+            <div class="l-skills__content u-padding-top-50-padding-bottom-100">
+
+                <h1 class="c-title c-title--second">Skills</h1>
+
+                <div class="l-skills__wrapper-skills">
+
+                    <article class="c-skill">
+
+                        <img src="assets/image/logos_skills/ico_html5.png" alt="Logo HTML5" class="c-skill__logo">
+
+                        <div class="c-skill__content-on-the-right">
+
+                            <h2 class="c-title c-title--third">HTML</h2>
+
+                            <progress class="c-bar-progress" value="70" max="100">70%</progress>
+
+                        </div>
+
+                    </article>
+
+                    <article class="c-skill">
+
+                        <img src="assets/image/logos_skills/ico_nodejs.png" alt="Logo NodeJS" class="c-skill__logo">
+
+                        <div class="c-skill__content-on-the-right">
+
+                            <h2 class="c-title c-title--third">HTML</h2>
+
+                            <progress class="c-bar-progress" value="70" max="100">70%</progress>
+
+                        </div>
+
+                    </article>
+
+                    <article class="c-skill">
+
+                        <img src="assets/image/logos_skills/ico_css3.png" alt="Logo CSS3" class="c-skill__logo">
+
+                        <div class="c-skill__content-on-the-right">
+
+                            <h2 class="c-title c-title--third">HTML</h2>
+
+                            <progress class="c-bar-progress" value="70" max="100">70%</progress>
+
+                        </div>
+
+                    </article>
+
+                    <article class="c-skill">
+
+                        <img src="assets/image/logos_skills/ico_tdd.png" alt="Logo TDD" class="c-skill__logo">
+
+                        <div class="c-skill__content-on-the-right">
+
+                            <h2 class="c-title c-title--third">HTML</h2>
+
+                            <progress class="c-bar-progress" value="70" max="100">70%</progress>
+
+                        </div>
+
+                    </article>
+
+                    <article class="c-skill">
+
+                        <img src="assets/image/logos_skills/ico_js.png" alt="Logo JavaScript" class="c-skill__logo">
+
+                        <div class="c-skill__content-on-the-right">
+
+                            <h2 class="c-title c-title--third">HTML</h2>
+
+                            <progress class="c-bar-progress" value="70" max="100">70%</progress>
+
+                        </div>
+
+                    </article>
+
+                    <article class="c-skill">
+
+                        <img src="assets/image/logos_skills/ico_restapi.png" style="width: 90px;" alt="Logo Rest API" class="c-skill__logo">
+
+                        <div class="c-skill__content-on-the-right">
+
+                            <h2 class="c-title c-title--third">HTML</h2>
+
+                            <progress class="c-bar-progress" value="70" max="100">70%</progress>
+
+                        </div>
+
+                    </article>
+
+                    <article class="c-skill">
+
+                        <img src="assets/image/logos_skills/ico_react.png" alt="Logo React" class="c-skill__logo">
+
+                        <div class="c-skill__content-on-the-right">
+
+                            <h2 class="c-title c-title--third">HTML</h2>
+
+                            <progress class="c-bar-progress" value="70" max="100">70%</progress>
+
+                        </div>
+
+                    </article>
+
+                    <article class="c-skill">
+
+                        <img src="assets/image/logos_skills/ico_ux.png" style="width: 90px;" alt="Logo UX" class="c-skill__logo">
+
+                        <div class="c-skill__content-on-the-right">
+
+                            <h2 class="c-title c-title--third">HTML</h2>
+
+                            <progress class="c-bar-progress" value="70" max="100">70%</progress>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
-    
+
 </body>
+
 </html>
