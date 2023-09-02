@@ -1,7 +1,13 @@
 .c-button {
-    padding: 1.125rem 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
     box-shadow: 0.3125rem 0.3125rem 0rem var(--color-black-first);
     background-color: var(--color-first);
+    height: 3.75rem;
+    min-width: 10.625rem;
     color: var(--color-third);
     font-family: var(--font-first);
     font-size: 1.25rem;
