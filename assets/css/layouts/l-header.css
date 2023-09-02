@@ -1,0 +1,16 @@
+.l-header {
+    background-color: var(--color-second);
+}
+
+.l-header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 5.3125rem;
+    max-width: 87.5rem;
+}
+
+.l-header__logo {
+    width: 3.75rem;
+}
