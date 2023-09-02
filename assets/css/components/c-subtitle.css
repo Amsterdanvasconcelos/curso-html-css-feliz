@@ -1,0 +1,7 @@
+.c-subtitle {
+    color: var(--color-third);
+    text-shadow: 0.25rem 0.25rem 0rem var(--color-black-first);
+    font-family: var(--font-second);
+    font-size: 1.875rem;
+    font-weight: 400;
+}
