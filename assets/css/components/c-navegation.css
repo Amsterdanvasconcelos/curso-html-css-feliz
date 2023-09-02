@@ -1,0 +1,27 @@
+.c-navegation {
+    display: flex;
+    gap: 1.875rem;
+}
+
+.c-navegation__link {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+
+    color: var(--color-third);
+    font-family: var(--font-first);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.c-navegation__link:hover {
+    text-decoration: underline;
+}
+
+.c-navegation__link::before {
+    content: '';
+    display: block;
+    background-color: var(--color-first);
+    height: 0.625rem;
+    width: 0.625rem;
+}
