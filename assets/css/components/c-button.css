@@ -1,0 +1,13 @@
+.c-button {
+    padding: 1.125rem 1.25rem;
+    box-shadow: 0.3125rem 0.3125rem 0rem var(--color-black-first);
+    background-color: var(--color-first);
+    color: var(--color-third);
+    font-family: var(--font-first);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.c-button:hover {
+    transform: scale(1.06);
+}
