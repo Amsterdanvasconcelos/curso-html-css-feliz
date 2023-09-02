@@ -1,0 +1,19 @@
+.c-skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 26.875rem;
+}
+
+.c-skill__logo {
+    height: 90px;
+}
+
+.c-skill__content-on-the-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    justify-content: space-between;
+    width: 20rem;
+}
