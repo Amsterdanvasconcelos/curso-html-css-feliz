@@ -1,0 +1,17 @@
+.l-skills {
+    border-bottom: 10px solid var(--color-second);
+    background-color: var(--color-first);
+}
+
+.l-skills__content {
+    margin: 0 auto;
+    max-width: 87.5rem;
+}
+
+.l-skills__wrapper-skills {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    gap: 40px 100px;
+}
