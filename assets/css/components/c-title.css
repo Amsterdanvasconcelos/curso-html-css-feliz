@@ -1,0 +1,19 @@
+.c-title {
+    color: var(--color-first);
+    font-family: var(--font-second);
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-shadow: 0.25rem 0.25rem 0rem var(--color-black-first);
+}
+
+.c-title--second {
+    color: var(--color-third);
+    text-align: center;
+    text-shadow: none;
+}
+
+.c-title--third {
+    color: var(--color-third);
+    font-size: 1.5625rem;
+    text-shadow: none;
+}
