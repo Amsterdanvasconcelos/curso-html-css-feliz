@@ -25,3 +25,20 @@
     height: 0.625rem;
     width: 0.625rem;
 }
+
+@media screen and (max-width: 52.5rem) {
+    .c-navegation {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background-color: var(--color-first);
+        height: 100vh;
+        width: 100vw;
+    }
+}

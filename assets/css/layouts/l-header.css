@@ -16,3 +16,14 @@
 .l-header__logo {
     width: 3.75rem;
 }
+
+@media screen and (max-width: 52.5rem) {
+    .l-header__content {
+        position: relative;
+    }
+
+    .l-header__content .c-button {
+        background-color: var(--color-second);
+        width: 90%;
+    }
+}
