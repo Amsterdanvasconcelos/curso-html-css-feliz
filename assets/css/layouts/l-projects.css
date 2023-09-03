@@ -1,0 +1,17 @@
+.l-projects {
+    background-color: var(--color-black-first);
+}
+
+.l-projects__content {
+    margin: 0 auto;
+    max-width: 87.5rem;
+}
+
+.l-projects__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11.25rem;
+    
+    margin-top: 3.125rem;
+}
