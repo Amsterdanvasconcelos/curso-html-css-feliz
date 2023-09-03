@@ -1,8 +1,30 @@
 .l-about {
+    position: relative;
     background-color: var(--color-second);
 }
 
+.l-about::after {
+    content: '';
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    height: 0;
+    width: 100%;
+    border: 0.1875rem dashed var(--color-black-first);
+}
+
 .l-about__content {
+    position: relative;
     margin: 0 auto;
     max-width: 87.5rem;
+}
+
+.l-about__content::before {
+    content: '';
+    position: absolute;
+    top: 5rem;
+    left: 5%;
+    height: 0.3125rem;
+    width: 90%;
+    background-color: var(--color-black-first);
 }
