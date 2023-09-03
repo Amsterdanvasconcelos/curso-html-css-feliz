@@ -1,0 +1,9 @@
+.l-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    
+    background-color: var(--color-black-first);
+    height: 6.25rem;
+}
