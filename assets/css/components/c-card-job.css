@@ -1,0 +1,46 @@
+.c-card-job {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.125rem;
+    
+    border:2px solid red;
+    width: 220px;
+}
+
+.c-card-job::before {
+    content: '';
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    width: 0px;
+    height: 70px;
+    border-left: 5px dashed black;
+}
+
+.c-card-job__title {
+    padding-bottom: 5px;
+    color: var(--color-first);
+    font-family: var(--font-second);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.c-card-job__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 0.9375rem;
+    border: 0.3125rem solid var(--color-black-first);
+    background-color: blue;
+    height: 8.75rem;
+
+    z-index: 1;
+}
+
+.c-card-job__logo img {
+    max-height: 100%;
+}
