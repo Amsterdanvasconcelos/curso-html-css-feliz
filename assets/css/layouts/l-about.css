@@ -1,0 +1,8 @@
+.l-about {
+    background-color: var(--color-second);
+}
+
+.l-about__content {
+    margin: 0 auto;
+    max-width: 87.5rem;
+}
