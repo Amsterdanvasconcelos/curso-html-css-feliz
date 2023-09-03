@@ -12,7 +12,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 11.25rem;
+    flex-wrap: wrap;
+    gap: 3.125rem 11.25rem;
     
     margin-top: 3.125rem;
 }
