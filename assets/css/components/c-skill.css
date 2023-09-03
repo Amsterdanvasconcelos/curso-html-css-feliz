@@ -5,8 +5,8 @@
     width: 26.875rem;
 }
 
-.c-skill__logo {
-    width: 90px;
+.c-skill__logo-mobile {
+    display: none;
 }
 
 .c-skill__content-on-the-right {
@@ -16,4 +16,29 @@
     gap: 1rem;
     justify-content: space-between;
     width: 20rem;
+}
+
+@media screen and (max-width: 31.25rem) {
+    .c-skill {
+        flex-direction: column;
+    }
+
+    .c-skill__logo-desktop {
+        display: none;
+    }
+
+    .c-skill__logo-mobile {
+        display: block;
+    }
+
+    .c-skill .c-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .c-skill__logo-mobile {
+        width: 2.5rem;
+    }
 }
