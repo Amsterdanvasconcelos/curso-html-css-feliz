@@ -8,6 +8,10 @@
     width: 17.5rem;
 }
 
+.c-card-figure:hover {
+    box-shadow: 0 0 0 0.625rem var(--color-third);
+}
+
 .c-card-figure--color-one {
     background-color: var(--color-second);
 }
