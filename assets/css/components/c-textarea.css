@@ -1,0 +1,6 @@
+.c-textarea {
+    padding: 0.625rem 0.9375rem;
+    border: 0.3125rem solid var(--color-black-first);
+    outline: none;
+    height: 20.625rem;
+}
