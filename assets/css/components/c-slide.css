@@ -1,0 +1,18 @@
+.c-slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c-slide__wrapper-movement {
+    padding: 0 20px;
+    overflow-x: hidden;
+}
+
+.c-slide__movement {
+    display: flex;
+}
+
+.c-slide .c-button {
+    min-width: 60px;
+}
