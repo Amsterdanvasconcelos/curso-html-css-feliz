@@ -1,0 +1,24 @@
+.c-card-figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    box-shadow: 0.625rem 0.625rem 0 var(--color-third);
+    height: 17.5rem;
+    width: 17.5rem;
+}
+
+.c-card-figure--color-one {
+    background-color: var(--color-second);
+}
+
+.c-card-figure--color-two {
+    --color-fourth: #4C5B84;
+
+    background-color: var(--color-fourth);
+}
+
+.c-card-figure--color-third {
+    background-color: var(--color-first);
+}
+
