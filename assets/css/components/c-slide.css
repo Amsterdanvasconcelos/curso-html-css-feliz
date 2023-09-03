@@ -5,14 +5,15 @@
 }
 
 .c-slide__wrapper-movement {
-    padding: 0 20px;
+    margin: 0 0.625rem;
     overflow-x: hidden;
 }
 
 .c-slide__movement {
     display: flex;
+    gap: 1.25rem;
 }
 
 .c-slide .c-button {
-    min-width: 60px;
+    min-width: 3.75rem;
 }
