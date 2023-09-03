@@ -7,3 +7,7 @@
     background-color: var(--color-black-first);
     height: 6.25rem;
 }
+
+.l-footer .c-logo-medias:hover {
+    border: 0.3125rem solid var(--color-black-first);
+}
