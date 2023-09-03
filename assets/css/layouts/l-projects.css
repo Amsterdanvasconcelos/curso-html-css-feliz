@@ -1,4 +1,5 @@
 .l-projects {
+    border-bottom: 10px solid var(--color-first);
     background-color: var(--color-black-first);
 }
 
