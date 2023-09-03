@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 52.5rem) {
     .c-menu-burger {
-        /* position: relative; */
+        position: relative;
         display: block;
     }
 }
