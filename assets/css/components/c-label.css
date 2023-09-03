@@ -1,0 +1,10 @@
+.c-label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    color: var(--color-third);
+    font-family: var(--font-first);
+    font-size: 1.875rem;
+    font-weight: 300;
+}
