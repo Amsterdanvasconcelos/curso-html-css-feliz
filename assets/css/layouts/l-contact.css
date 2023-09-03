@@ -1,0 +1,22 @@
+.l-contact {
+    background-color: var(--color-black-second);
+}
+
+.l-contact__content {
+    margin: 0 auto;
+    max-width: 87.5rem;
+}
+
+.l-contact .c-form {
+    margin: 0 auto;
+    margin-top: 3.125rem;
+    width: 94%;
+}
+
+.l-contact .c-button {
+    margin-top: 20px;
+}
+
+.l-contact .c-button:hover {
+    transform: scale(1.02);
+}
