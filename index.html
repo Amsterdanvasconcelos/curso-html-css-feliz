@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/layouts/l-banner.css">
     <link rel="stylesheet" href="assets/css/layouts/l-skills.css">
     <link rel="stylesheet" href="assets/css/layouts/l-projects.css">
+    <link rel="stylesheet" href="assets/css/layouts/l-about.css">
     <link rel="stylesheet" href="assets/css/layouts/l-contact.css">
     <link rel="stylesheet" href="assets/css/layouts/l-footer.css">
     <!-- Components -->
@@ -34,12 +35,15 @@
     <link rel="stylesheet" href="assets/css/components/c-skill.css">
     <link rel="stylesheet" href="assets/css/components/c-bar-progress.css">
     <link rel="stylesheet" href="assets/css/components/c-card-figure.css">
+    <link rel="stylesheet" href="assets/css/components/c-card-job.css">
     <link rel="stylesheet" href="assets/css/components/c-form.css">
     <link rel="stylesheet" href="assets/css/components/c-label.css">
     <link rel="stylesheet" href="assets/css/components/c-input.css">
     <link rel="stylesheet" href="assets/css/components/c-textarea.css">
     <link rel="stylesheet" href="assets/css/components/c-logo-medias.css">
 
+    <script defer src="assets/js/components/script-navegation.js"></script>
+    
     <title>Portfólio Marco Bruno</title>
 </head>
 
@@ -51,7 +55,7 @@
 
             <img src="assets/image/main-logo.jpg" alt="Pixel Art Marco Bruno" class="l-header__logo">
 
-            <nav class="c-navegation">
+            <nav class="c-navegation" data-navegation="navegation">
 
                 <a class="c-navegation__link" href="#">Slills</a>
                 <a class="c-navegation__link" href="#">Projetos</a>
@@ -61,7 +65,7 @@
 
             </nav>
 
-            <div class="c-menu-burger">
+            <div class="c-menu-burger" data-navegation="menu-burger">
                 <i class="c-menu-burger__icon fa-solid fa-bars"></i>
             </div>
 
@@ -271,6 +275,26 @@
                 
             </div>
 
+        </section>
+
+        <section class="l-about">
+            <div class="l-about__content u-padding-top-50-padding-bottom-100">
+                
+                <div class="c-card-job">
+                    <h3 class="c-card-job__title">2012</h3>
+                    <figure class="c-card-job__logo">
+                        <img src="assets/image/logo_jobs/locaweb.png" alt="Logo LocaWeb">
+                    </figure>
+                </div>
+
+                <div class="c-card-job">
+                    <h3 class="c-card-job__title">2014</h3>
+                    <figure class="c-card-job__logo">
+                        <img src="assets/image/logo_jobs/caelum.png" alt="Logo Caelum">
+                    </figure>
+                </div>
+
+            </div>
         </section>
 
         <section class="l-contact">
