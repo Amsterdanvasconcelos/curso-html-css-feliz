@@ -17,3 +17,9 @@
     font-size: 1.5625rem;
     text-shadow: none;
 }
+
+@media screen and (max-width: 40rem) {
+    .c-title--second {
+        font-size: 35px;
+    }
+}
