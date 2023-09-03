@@ -1,0 +1,19 @@
+.c-menu-burger {
+    display: none;
+    
+    padding: 6px 10px;
+    box-shadow: 5px 5px 0 var(--color-black-first);
+    background-color: var(--color-first);
+}
+
+.c-menu-burger__icon {
+    color: var(--color-third);
+    font-size: 40px;
+    text-shadow: 2px 2px 0 black;
+}
+
+@media screen and (max-width: 52.5rem) {
+    .c-menu-burger {
+        display: block;
+    }
+}
